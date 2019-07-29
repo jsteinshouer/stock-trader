@@ -2,7 +2,7 @@
 <div>
 	<h1>Trade or View your Portfolio</h1>
 	<p>You may Save &amp; Load your data</p>
-	<p>Click on <v-icon>today</v-icon> to begin a new day</p>
+	<p>Click on <v-icon>mdi-today</v-icon> to begin a new day</p>
 	<h2>Your Funds: {{ funds | dollarFormat }}</h2>
 </div>
 </template>

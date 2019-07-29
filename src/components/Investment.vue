@@ -2,7 +2,7 @@
   <v-flex xs6>
 	<v-card color="blue-grey" class="lighten-5">
 		<v-card-title primary-title>
-        	<div class="headline">{{investment.stock.name}}</div>&nbsp;&nbsp;
+			<div class="headline">{{investment.stock.name}}</div>&nbsp;&nbsp;
 			<div>(Price: {{investment.stock.price}} | Quantity: {{ investment.quantity }})</div>
 		</v-card-title>
 		<v-card-actions>
