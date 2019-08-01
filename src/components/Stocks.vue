@@ -1,29 +1,29 @@
 <template>
 <div>
-      <v-container
+    <v-container
         fluid
         style="min-height: 0;"
         grid-list-lg
-      >
-      <h1>Stocks</h1>
+    >
+        <h1>Stocks</h1>
         <v-layout row wrap>
-          <app-stock v-for="(stock,index) in stocks" :stock="stock" :key="index"></app-stock>
+            <app-stock v-for="(stock,index) in stocks" :stock="stock" :key="index"></app-stock>
         </v-layout>
-      </v-container>
+    </v-container>
 </div>
 </template>
 
 <script>
-  import Stock from "./Stock.vue";
+import Stock from "./Stock.vue";
 
-  export default {
+export default {
     components: {
-      "app-stock": Stock
+        "app-stock": Stock
     },
     computed: {
-      stocks() {
-        return this.$store.getters.stocks;
-      }
+        stocks() {
+            return this.$store.getters.stocks;
+        }
     }
-  }
+}
 </script>

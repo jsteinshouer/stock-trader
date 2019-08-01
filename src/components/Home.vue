@@ -8,14 +8,14 @@
 </template>
 
 <script>
-  export default {
-    computed: {
-      funds() {
-        return this.$store.getters.funds;
+   export default {
+      computed: {
+         funds() {
+            return this.$store.getters.funds;
+         }
+      },
+      methods: {
+      
       }
-    },
-    methods: {
-    
-    }
-  }
+   }
 </script>
