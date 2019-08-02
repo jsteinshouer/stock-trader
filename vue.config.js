@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath="stock-trader"
+    publicPath: "stock-trader"
 }
