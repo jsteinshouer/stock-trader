@@ -38,6 +38,31 @@
                         <v-list-item-title>Stocks</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
+                <v-divider dark class="my-4"></v-divider>
+                <v-list-item @click="endDay">
+                    <v-list-item-action>
+                        <v-icon>mdi-calendar</v-icon>
+                    </v-list-item-action>
+                    <v-list-item-content>
+                        <v-list-item-title>End Day</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
+                <v-list-item @click="save">
+                    <v-list-item-action>
+                        <v-icon>mdi-cloud-upload</v-icon>
+                    </v-list-item-action>
+                    <v-list-item-content>
+                        <v-list-item-title>Save</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
+                <v-list-item @click="restore">
+                    <v-list-item-action>
+                        <v-icon>mdi-restore</v-icon>
+                    </v-list-item-action>
+                    <v-list-item-content>
+                        <v-list-item-title>Restore</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
             </v-list>
         </v-navigation-drawer>
         <v-content>
